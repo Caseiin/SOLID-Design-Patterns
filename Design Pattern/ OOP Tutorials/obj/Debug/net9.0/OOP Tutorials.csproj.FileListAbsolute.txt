@@ -1,0 +1,15 @@
+C:\Users\leruo\Design Pattern Practice\SOLID-Design-Patterns\Design Pattern\ OOP Tutorials\bin\Debug\net9.0\OOP Tutorials.exe
+C:\Users\leruo\Design Pattern Practice\SOLID-Design-Patterns\Design Pattern\ OOP Tutorials\bin\Debug\net9.0\OOP Tutorials.deps.json
+C:\Users\leruo\Design Pattern Practice\SOLID-Design-Patterns\Design Pattern\ OOP Tutorials\bin\Debug\net9.0\OOP Tutorials.runtimeconfig.json
+C:\Users\leruo\Design Pattern Practice\SOLID-Design-Patterns\Design Pattern\ OOP Tutorials\bin\Debug\net9.0\OOP Tutorials.dll
+C:\Users\leruo\Design Pattern Practice\SOLID-Design-Patterns\Design Pattern\ OOP Tutorials\bin\Debug\net9.0\OOP Tutorials.pdb
+C:\Users\leruo\Design Pattern Practice\SOLID-Design-Patterns\Design Pattern\ OOP Tutorials\obj\Debug\net9.0\OOP Tutorials.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\leruo\Design Pattern Practice\SOLID-Design-Patterns\Design Pattern\ OOP Tutorials\obj\Debug\net9.0\OOP Tutorials.AssemblyInfoInputs.cache
+C:\Users\leruo\Design Pattern Practice\SOLID-Design-Patterns\Design Pattern\ OOP Tutorials\obj\Debug\net9.0\OOP Tutorials.AssemblyInfo.cs
+C:\Users\leruo\Design Pattern Practice\SOLID-Design-Patterns\Design Pattern\ OOP Tutorials\obj\Debug\net9.0\OOP Tutorials.csproj.CoreCompileInputs.cache
+C:\Users\leruo\Design Pattern Practice\SOLID-Design-Patterns\Design Pattern\ OOP Tutorials\obj\Debug\net9.0\OOP Tutorials.sourcelink.json
+C:\Users\leruo\Design Pattern Practice\SOLID-Design-Patterns\Design Pattern\ OOP Tutorials\obj\Debug\net9.0\OOP Tutorials.dll
+C:\Users\leruo\Design Pattern Practice\SOLID-Design-Patterns\Design Pattern\ OOP Tutorials\obj\Debug\net9.0\refint\OOP Tutorials.dll
+C:\Users\leruo\Design Pattern Practice\SOLID-Design-Patterns\Design Pattern\ OOP Tutorials\obj\Debug\net9.0\OOP Tutorials.pdb
+C:\Users\leruo\Design Pattern Practice\SOLID-Design-Patterns\Design Pattern\ OOP Tutorials\obj\Debug\net9.0\OOP Tutorials.genruntimeconfig.cache
+C:\Users\leruo\Design Pattern Practice\SOLID-Design-Patterns\Design Pattern\ OOP Tutorials\obj\Debug\net9.0\ref\OOP Tutorials.dll

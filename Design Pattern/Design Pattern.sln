@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = " OOP Tutorials", " OOP Tutorials", "{E90C50FB-3131-E942-42D1-ED18087C37C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP Tutorials", " OOP Tutorials\OOP Tutorials.csproj", "{1A479831-458B-FA18-C221-554987D6064D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1A479831-458B-FA18-C221-554987D6064D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A479831-458B-FA18-C221-554987D6064D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A479831-458B-FA18-C221-554987D6064D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A479831-458B-FA18-C221-554987D6064D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1A479831-458B-FA18-C221-554987D6064D} = {E90C50FB-3131-E942-42D1-ED18087C37C0}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {81268492-61FB-4A4F-B102-A2E528F2137D}
+	EndGlobalSection
+EndGlobal
