@@ -9,7 +9,7 @@ System.Console.WriteLine($"balance amount for account is: {bankAccount.Balance}"
 
 bankAccount.WithDraw(20);
 System.Console.WriteLine($"balance amount for account is: {bankAccount.Balance}");
-
+ 
 bankAccount.Deposit(80);
 System.Console.WriteLine($"balance amount for account is: {bankAccount.Balance}");
 
@@ -29,4 +29,13 @@ car.Start();
 System.Console.WriteLine($"Brand: {car.Brand}, Model: {car.Model}, Year: {car.Year}");
 car.Stop();
 
+// ===========================================================================================================
+// Coupling(Degree of dependency between classes) eg:
+// ===========================================================================================================
+
+var Emailorder = new Order(new EmailSender());
+var smsorder = new Order(new SmsSender());
+
+Emailorder.PlaceOrder();
+smsorder.PlaceOrder();
 // ===========================================================================================================
