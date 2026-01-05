@@ -4,7 +4,7 @@ using OOP_Tutorials;
 // Encapsulation eg:
 // ===========================================================================================================
 
-BankAccount bankAccount = new BankAccount(100);
+/*BankAccount bankAccount = new BankAccount(100);
 System.Console.WriteLine($"balance amount for account is: {bankAccount.Balance}");
 
 bankAccount.WithDraw(20);
@@ -37,5 +37,11 @@ var Emailorder = new Order(new EmailSender());
 var smsorder = new Order(new SmsSender());
 
 Emailorder.PlaceOrder();
-smsorder.PlaceOrder();
+smsorder.PlaceOrder(); */
+// ===========================================================================================================
+// Composition eg:
+// ===========================================================================================================
+
+    Car car = new Car("Toyota","Corolla",2017);
+    car.Start();
 // ===========================================================================================================
