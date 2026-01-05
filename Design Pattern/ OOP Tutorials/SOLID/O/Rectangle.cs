@@ -1,0 +1,14 @@
+using System;
+
+namespace OOP_Tutorials.SOLID.O;
+
+public class Rectangle : Shape
+{
+    public double Length {get; set;}
+    public double Width {get; set;}
+
+    public override double CalculateArea()
+    {
+        return Length*Width;
+    }
+}
