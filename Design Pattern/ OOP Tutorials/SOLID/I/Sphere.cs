@@ -2,7 +2,7 @@ using System;
 
 namespace OOP_Tutorials.SOLID.I;
 
-public class Sphere : IShape
+public class Sphere : IShape3D
 {
     public double Radius {get; set;}
 

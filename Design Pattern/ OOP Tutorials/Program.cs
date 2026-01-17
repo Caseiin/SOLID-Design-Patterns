@@ -1,52 +1,8 @@
 ﻿
 using System.Drawing;
-using OOP_Tutorials;
-// using OOP_Tutorials;
+using OOP_Tutorials.SOLID.D;
 
-// Encapsulation eg:
-// ===========================================================================================================
+var car = new Car(new Engine());
+car.StartCar();
 
-/*BankAccount bankAccount = new BankAccount(100);
-System.Console.WriteLine($"balance amount for account is: {bankAccount.Balance}");
-
-bankAccount.WithDraw(20);
-System.Console.WriteLine($"balance amount for account is: {bankAccount.Balance}");
- 
-bankAccount.Deposit(80);
-System.Console.WriteLine($"balance amount for account is: {bankAccount.Balance}");
-
-// ===========================================================================================================
-// Abstraction eg:
-// ===========================================================================================================
-
-EmailService emailService = new EmailService();
-emailService.SendEmail(); 
-
-// ===========================================================================================================
-// Inheritance eg:
-// ===========================================================================================================
-
-Car car = new Car("Toyota","Corolla",2017);
-car.Start();
-System.Console.WriteLine($"Brand: {car.Brand}, Model: {car.Model}, Year: {car.Year}");
-car.Stop();
-
-// ===========================================================================================================
-// Coupling(Degree of dependency between classes) eg:
-// ===========================================================================================================
-
-var Emailorder = new Order(new EmailSender());
-var smsorder = new Order(new SmsSender());
-
-Emailorder.PlaceOrder();
-smsorder.PlaceOrder(); */
-// ===========================================================================================================
-// Composition eg:
-// ===========================================================================================================
-
-    // Car car = new Car("Toyota","Corolla",2017);
-    // car.Start();
-// ===========================================================================================================
-// Liskov Principle eg:
-// ===========================================================================================================
 
