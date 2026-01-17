@@ -9,6 +9,9 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Folder Include="Design Patterns\" />
+    <Folder Include="Design Patterns\Behavioural\" />
+    <Folder Include="Design Patterns\Behavioural\Memento\" />
     <Folder Include="SOLID\D\" />
     <Folder Include="SOLID\I\" />
     <Folder Include="SOLID\L\" />
