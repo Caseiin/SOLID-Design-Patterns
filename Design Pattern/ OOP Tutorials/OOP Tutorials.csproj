@@ -9,6 +9,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Folder Include="SOLID\L\" />
     <Folder Include="SOLID\O\" />
   </ItemGroup>
 
