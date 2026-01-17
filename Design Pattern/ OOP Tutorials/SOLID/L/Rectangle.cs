@@ -5,8 +5,8 @@ namespace OOP_Tutorials.SOLID.L;
 public class Rectangle : Shape
 {
     public virtual double Width {get;set;}
-    public virtual double Length {get;set;}
+    public virtual double Height {get;set;}
 
 
-    public override double Area => Width * Length;
+    public override double Area => Width * Height;
 }
