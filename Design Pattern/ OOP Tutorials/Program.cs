@@ -1,24 +1,16 @@
-﻿
-using System.Drawing;
-using OOP_Tutorials.Design_Patterns.Behavioural.Memento;
-using OOP_Tutorials.SOLID.D;
+﻿// State Pattern
 
-var editor = new Editor();
-var history = new History(editor);
-history.BackUp();
-editor.Title = "Test";
-history.BackUp();
-editor.Content = "Hello this is a test";
-history.BackUp();
-editor.Title = "Life of a dev";
+using OOP_Tutorials.Design_Patterns.Behavioural.State;
 
-System.Console.WriteLine($"Title: {editor.Title}");
-System.Console.WriteLine($"Title: {editor.Content}");
+var doc = new Document(UserRoles.Admin);
+System.Console.WriteLine(doc.State);
 
-history.Undo();
+doc.Publish();
+System.Console.WriteLine(doc.State);
 
-System.Console.WriteLine($"Title: {editor.Title}");
-System.Console.WriteLine($"Title: {editor.Content}");
+doc.Publish();
+System.Console.WriteLine(doc.State);
 
-history.ShowHistory();
 
+doc.State  = new DraftDoc(doc);
+System.Console.WriteLine(doc.State);
