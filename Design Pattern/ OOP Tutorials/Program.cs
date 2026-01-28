@@ -1,16 +1,12 @@
-﻿// State Pattern
+﻿// Strategy Pattern
 
-using OOP_Tutorials.Design_Patterns.Behavioural.State;
+using OOP_Tutorials.Design_Patterns.Behavioural.Strategy;
 
-var doc = new Document(UserRoles.Admin);
-System.Console.WriteLine(doc.State);
+var VideoStorage = new VideoStorage(new CompressorMOV(), new BWOverlay());
+VideoStorage.Store("/video/movie");
 
-doc.Publish();
-System.Console.WriteLine(doc.State);
+VideoStorage.SetCompressor(new CompressorMP4());
+VideoStorage.SetOverlay(new NoOverlay());
 
-doc.Publish();
-System.Console.WriteLine(doc.State);
+VideoStorage.Store("/video/movie");
 
-
-doc.State  = new DraftDoc(doc);
-System.Console.WriteLine(doc.State);

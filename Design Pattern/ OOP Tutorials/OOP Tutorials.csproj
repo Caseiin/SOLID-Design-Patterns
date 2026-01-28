@@ -13,6 +13,7 @@
     <Folder Include="Design Patterns\Behavioural\" />
     <Folder Include="Design Patterns\Behavioural\Memento\" />
     <Folder Include="Design Patterns\Behavioural\State\" />
+    <Folder Include="Design Patterns\Behavioural\Strategy\" />
     <Folder Include="SOLID\D\" />
     <Folder Include="SOLID\I\" />
     <Folder Include="SOLID\L\" />
