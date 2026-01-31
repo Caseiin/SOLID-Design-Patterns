@@ -11,6 +11,7 @@
   <ItemGroup>
     <Folder Include="Design Patterns\" />
     <Folder Include="Design Patterns\Behavioural\" />
+    <Folder Include="Design Patterns\Behavioural\Iterator\" />
     <Folder Include="Design Patterns\Behavioural\Memento\" />
     <Folder Include="Design Patterns\Behavioural\State\" />
     <Folder Include="Design Patterns\Behavioural\Strategy\" />
