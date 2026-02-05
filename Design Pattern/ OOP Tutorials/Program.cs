@@ -1,10 +1,20 @@
-﻿// Command pattern
+﻿// Command pattern with undoable
 
-using OOP_Tutorials.Design_Patterns.Behavioural.Command;
+using OOP_Tutorials.Design_Patterns.Behavioural.Command.Undoable;
 
-var light = new Light();
-var remote = new RemoteControl(new TurnOn(light));
-remote.PressButtton();
+var htlmDoc = new HtmlDocument();
+var history = new History();
+htlmDoc.Content = "Hello world";
+System.Console.WriteLine(htlmDoc.Content); //Hello world
 
-remote.SetCommand(new TurnOff(light));
-remote.PressButtton();
+var ItalicCommand = new ItalicCommand(htlmDoc,history);
+ItalicCommand.Execute();
+System.Console.WriteLine(htlmDoc.Content);//<i>Hello world<i>
+
+
+var undoCommand = new UndoCommand(history);
+undoCommand.Execute();
+System.Console.WriteLine(htlmDoc.Content); //Hello world
+
+
+
