@@ -1,12 +1,10 @@
-﻿// Strategy Pattern
+﻿// Command pattern
 
-using OOP_Tutorials.Design_Patterns.Behavioural.Strategy;
+using OOP_Tutorials.Design_Patterns.Behavioural.Command;
 
-var VideoStorage = new VideoStorage(new CompressorMOV(), new BWOverlay());
-VideoStorage.Store("/video/movie");
+var light = new Light();
+var remote = new RemoteControl(new TurnOn(light));
+remote.PressButtton();
 
-VideoStorage.SetCompressor(new CompressorMP4());
-VideoStorage.SetOverlay(new NoOverlay());
-
-VideoStorage.Store("/video/movie");
-
+remote.SetCommand(new TurnOff(light));
+remote.PressButtton();
