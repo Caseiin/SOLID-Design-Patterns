@@ -1,7 +1,7 @@
 using System.ComponentModel;
 using System;
-namespace OOP_Tutorials.Design_Patterns.Behavioural.TemplateMethod
-{
+namespace  OOP_Tutorials.Design_Patterns.Behavioural.TemplateMethod;
+
 public  abstract class Beverage
 {
     public void Prepare()
@@ -16,6 +16,4 @@ public  abstract class Beverage
     void PourIntoCup()=> Console.WriteLine("Pouring water into cup");
     protected abstract void Brew();
     protected virtual void AddCondiments(){}
-}
-    
 }

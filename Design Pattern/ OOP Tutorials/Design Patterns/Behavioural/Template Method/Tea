@@ -1,9 +1,0 @@
-    using System;
-    namespace OOP_Tutorials.Design_Patterns.Behavioural.TemplateMethod
-    {
-        public class Tea: Beverage
-        {
-            
-        }
-        
-    }
